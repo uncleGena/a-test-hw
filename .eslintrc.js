@@ -13,6 +13,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    "prefer-rest-params": "off",
     "prettier/prettier": "error",
     curly: ["error", "multi-line"],
     "@typescript-eslint/ban-ts-comment": "off",
